@@ -1,0 +1,6 @@
+[2016-11-01 23:00:42,211][INFO ][node                     ] [Geb] version[2.4.1], pid[1109], build[c67dc32/2016-09-27T18:57:55Z]
+[2016-11-01 23:00:42,215][INFO ][node                     ] [Geb] initializing ...
+[2016-11-01 23:00:43,381][INFO ][plugins                  ] [Geb] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2016-11-01 23:00:43,429][INFO ][env                      ] [Geb] using [1] data paths, mounts [[/ (/dev/disk0s2)]], net usable_space [148.3gb], net total_space [222.7gb], spins? [unknown], types [hfs]
+[2016-11-01 23:00:43,430][INFO ][env                      ] [Geb] heap size [1007.3mb], compressed ordinary object pointers [true]
+[2016-11-01 23:00:43,431][WARN ][env                      ] [Geb] max file descriptors [10240] for elasticsearch process likely too low, consider increasing to at least [65536]

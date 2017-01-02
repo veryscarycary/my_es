@@ -1,0 +1,15 @@
+[2016-10-16 23:52:02,409][INFO ][node                     ] [Victor Strange] version[2.4.1], pid[13835], build[c67dc32/2016-09-27T18:57:55Z]
+[2016-10-16 23:52:02,413][INFO ][node                     ] [Victor Strange] initializing ...
+[2016-10-16 23:52:03,629][INFO ][plugins                  ] [Victor Strange] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2016-10-16 23:52:03,677][INFO ][env                      ] [Victor Strange] using [1] data paths, mounts [[/ (/dev/disk0s2)]], net usable_space [147.9gb], net total_space [222.7gb], spins? [unknown], types [hfs]
+[2016-10-16 23:52:03,678][INFO ][env                      ] [Victor Strange] heap size [1007.3mb], compressed ordinary object pointers [true]
+[2016-10-16 23:52:03,679][WARN ][env                      ] [Victor Strange] max file descriptors [10240] for elasticsearch process likely too low, consider increasing to at least [65536]
+[2016-10-16 23:52:07,348][INFO ][node                     ] [Victor Strange] initialized
+[2016-10-16 23:52:07,349][INFO ][node                     ] [Victor Strange] starting ...
+[2016-10-16 23:52:07,518][INFO ][transport                ] [Victor Strange] publish_address {127.0.0.1:9300}, bound_addresses {[fe80::1]:9300}, {[::1]:9300}, {127.0.0.1:9300}
+[2016-10-16 23:52:07,527][INFO ][discovery                ] [Victor Strange] elasticsearch/wy-c76pZQGmiqdRqNOK3Cg
+[2016-10-16 23:52:10,604][INFO ][cluster.service          ] [Victor Strange] new_master {Victor Strange}{wy-c76pZQGmiqdRqNOK3Cg}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-10-16 23:52:10,641][INFO ][http                     ] [Victor Strange] publish_address {127.0.0.1:9200}, bound_addresses {[fe80::1]:9200}, {[::1]:9200}, {127.0.0.1:9200}
+[2016-10-16 23:52:10,641][INFO ][node                     ] [Victor Strange] started
+[2016-10-16 23:52:10,745][INFO ][gateway                  ] [Victor Strange] recovered [2] indices into cluster_state
+[2016-10-16 23:52:11,631][INFO ][cluster.routing.allocation] [Victor Strange] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[kb][4], [kb][4]] ...]).

@@ -1,0 +1,15 @@
+[2016-10-15 09:23:43,365][INFO ][cluster.metadata         ] [Diamondhead] [kb] creating index, cause [auto(bulk api)], templates [], shards [5]/[1], mappings []
+[2016-10-15 09:23:43,410][INFO ][cluster.metadata         ] [Diamondhead] [kb] create_mapping [article]
+[2016-10-15 09:23:43,415][INFO ][cluster.routing.allocation] [Diamondhead] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[kb][4]] ...]).
+[2016-10-15 09:23:43,438][INFO ][cluster.metadata         ] [Diamondhead] [ticket] creating index, cause [auto(bulk api)], templates [], shards [5]/[1], mappings []
+[2016-10-15 09:23:43,773][INFO ][cluster.metadata         ] [Diamondhead] [ticket] create_mapping [ticket]
+[2016-10-15 09:23:43,789][INFO ][cluster.routing.allocation] [Diamondhead] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[ticket][4]] ...]).
+[2016-10-15 09:24:15,378][INFO ][cluster.metadata         ] [Diamondhead] [kb] creating index, cause [auto(bulk api)], templates [], shards [5]/[1], mappings []
+[2016-10-15 09:24:15,438][INFO ][cluster.metadata         ] [Diamondhead] [ticket] creating index, cause [auto(bulk api)], templates [], shards [5]/[1], mappings []
+[2016-10-15 09:24:15,477][INFO ][cluster.metadata         ] [Diamondhead] [kb] create_mapping [article]
+[2016-10-15 09:24:15,483][INFO ][cluster.routing.allocation] [Diamondhead] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[ticket][0], [ticket][0], [kb][4], [ticket][4]] ...]).
+[2016-10-15 09:24:15,492][INFO ][cluster.metadata         ] [Diamondhead] [ticket] create_mapping [ticket]
+[2016-10-15 09:24:58,031][INFO ][node                     ] [Diamondhead] stopping ...
+[2016-10-15 09:24:58,105][INFO ][node                     ] [Diamondhead] stopped
+[2016-10-15 09:24:58,105][INFO ][node                     ] [Diamondhead] closing ...
+[2016-10-15 09:24:58,117][INFO ][node                     ] [Diamondhead] closed

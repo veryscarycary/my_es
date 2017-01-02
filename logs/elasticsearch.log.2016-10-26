@@ -1,0 +1,44 @@
+[2016-10-26 02:33:28,908][INFO ][node                     ] [Rahne Sinclair] version[2.4.1], pid[16980], build[c67dc32/2016-09-27T18:57:55Z]
+[2016-10-26 02:33:28,913][INFO ][node                     ] [Rahne Sinclair] initializing ...
+[2016-10-26 02:33:30,112][INFO ][plugins                  ] [Rahne Sinclair] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2016-10-26 02:33:30,171][INFO ][env                      ] [Rahne Sinclair] using [1] data paths, mounts [[/ (/dev/disk0s2)]], net usable_space [144.5gb], net total_space [222.7gb], spins? [unknown], types [hfs]
+[2016-10-26 02:33:30,171][INFO ][env                      ] [Rahne Sinclair] heap size [1007.3mb], compressed ordinary object pointers [true]
+[2016-10-26 02:33:30,172][WARN ][env                      ] [Rahne Sinclair] max file descriptors [10240] for elasticsearch process likely too low, consider increasing to at least [65536]
+[2016-10-26 02:33:33,877][INFO ][node                     ] [Rahne Sinclair] initialized
+[2016-10-26 02:33:33,877][INFO ][node                     ] [Rahne Sinclair] starting ...
+[2016-10-26 02:33:34,085][INFO ][transport                ] [Rahne Sinclair] publish_address {127.0.0.1:9300}, bound_addresses {[fe80::1]:9300}, {[::1]:9300}, {127.0.0.1:9300}
+[2016-10-26 02:33:34,093][INFO ][discovery                ] [Rahne Sinclair] elasticsearch/kw4U1LFdSSOG8F0gVjpz-g
+[2016-10-26 02:33:37,164][INFO ][cluster.service          ] [Rahne Sinclair] new_master {Rahne Sinclair}{kw4U1LFdSSOG8F0gVjpz-g}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-10-26 02:33:37,206][INFO ][http                     ] [Rahne Sinclair] publish_address {127.0.0.1:9200}, bound_addresses {[fe80::1]:9200}, {[::1]:9200}, {127.0.0.1:9200}
+[2016-10-26 02:33:37,206][INFO ][node                     ] [Rahne Sinclair] started
+[2016-10-26 02:33:37,241][INFO ][gateway                  ] [Rahne Sinclair] recovered [0] indices into cluster_state
+[2016-10-26 02:33:58,073][INFO ][cluster.metadata         ] [Rahne Sinclair] [ticket] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2016-10-26 02:33:58,555][INFO ][cluster.metadata         ] [Rahne Sinclair] [kb] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2016-10-26 02:33:59,033][INFO ][cluster.metadata         ] [Rahne Sinclair] [ticket] create_mapping [ticket]
+[2016-10-26 02:33:59,138][INFO ][cluster.metadata         ] [Rahne Sinclair] [kb] create_mapping [article]
+[2016-10-26 02:33:59,208][INFO ][cluster.routing.allocation] [Rahne Sinclair] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[kb][2], [kb][0], [ticket][4], [kb][4], [ticket][4], [kb][2], [kb][4], [kb][0]] ...]).
+[2016-10-26 02:33:59,485][INFO ][cluster.metadata         ] [Rahne Sinclair] [ticket] update_mapping [ticket]
+[2016-10-26 02:34:15,910][INFO ][cluster.metadata         ] [Rahne Sinclair] [kb] creating index, cause [auto(bulk api)], templates [], shards [5]/[1], mappings []
+[2016-10-26 02:34:16,033][INFO ][cluster.metadata         ] [Rahne Sinclair] [ticket] creating index, cause [auto(bulk api)], templates [], shards [5]/[1], mappings []
+[2016-10-26 02:34:16,231][INFO ][cluster.routing.allocation] [Rahne Sinclair] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[kb][4], [kb][4]] ...]).
+[2016-10-26 02:34:16,269][INFO ][cluster.metadata         ] [Rahne Sinclair] [kb] create_mapping [article]
+[2016-10-26 02:34:16,333][INFO ][cluster.metadata         ] [Rahne Sinclair] [ticket] create_mapping [ticket]
+[2016-10-26 02:35:15,948][INFO ][cluster.metadata         ] [Rahne Sinclair] [ticket] creating index, cause [auto(bulk api)], templates [], shards [5]/[1], mappings []
+[2016-10-26 02:35:16,090][INFO ][cluster.metadata         ] [Rahne Sinclair] [kb] creating index, cause [auto(bulk api)], templates [], shards [5]/[1], mappings []
+[2016-10-26 02:35:16,352][INFO ][cluster.routing.allocation] [Rahne Sinclair] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[kb][4], [kb][4]] ...]).
+[2016-10-26 02:35:16,371][INFO ][cluster.metadata         ] [Rahne Sinclair] [ticket] create_mapping [ticket]
+[2016-10-26 02:35:16,423][INFO ][cluster.metadata         ] [Rahne Sinclair] [kb] create_mapping [article]
+[2016-10-26 02:36:15,928][INFO ][cluster.metadata         ] [Rahne Sinclair] [ticket] creating index, cause [auto(bulk api)], templates [], shards [5]/[1], mappings []
+[2016-10-26 02:36:16,173][INFO ][cluster.metadata         ] [Rahne Sinclair] [kb] creating index, cause [auto(bulk api)], templates [], shards [5]/[1], mappings []
+[2016-10-26 02:36:16,581][INFO ][cluster.routing.allocation] [Rahne Sinclair] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[kb][0], [ticket][4], [kb][0], [kb][4]] ...]).
+[2016-10-26 02:36:16,634][INFO ][cluster.metadata         ] [Rahne Sinclair] [ticket] create_mapping [ticket]
+[2016-10-26 02:36:16,748][INFO ][cluster.metadata         ] [Rahne Sinclair] [kb] create_mapping [article]
+[2016-10-26 02:37:15,851][INFO ][cluster.metadata         ] [Rahne Sinclair] [kb] creating index, cause [auto(bulk api)], templates [], shards [5]/[1], mappings []
+[2016-10-26 02:37:15,941][INFO ][cluster.metadata         ] [Rahne Sinclair] [ticket] creating index, cause [auto(bulk api)], templates [], shards [5]/[1], mappings []
+[2016-10-26 02:37:16,097][INFO ][cluster.routing.allocation] [Rahne Sinclair] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[kb][4]] ...]).
+[2016-10-26 02:37:16,115][INFO ][cluster.metadata         ] [Rahne Sinclair] [kb] create_mapping [article]
+[2016-10-26 02:37:16,251][INFO ][cluster.metadata         ] [Rahne Sinclair] [ticket] create_mapping [ticket]
+[2016-10-26 02:37:53,221][INFO ][node                     ] [Rahne Sinclair] stopping ...
+[2016-10-26 02:37:53,362][INFO ][node                     ] [Rahne Sinclair] stopped
+[2016-10-26 02:37:53,363][INFO ][node                     ] [Rahne Sinclair] closing ...
+[2016-10-26 02:37:53,368][INFO ][node                     ] [Rahne Sinclair] closed
